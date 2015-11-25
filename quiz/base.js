@@ -513,16 +513,17 @@ module.exports = {
 		results.spent = this.shownSpent || (new Date - this.started);
 		results.spentString = stuff.intervalString(this.results.spent);
 		results.quiz = this;
-		results.shareImage = '/' + this.name + '/shareimage?' + results.correctIds.join('&');
+		results.shareImage = 'http://mquiz.ru/' + this.name + '/shareimage?' + results.correctIds.join('&');
 		var url = 'http://mquiz.ru/' + this.name;
 		var img = url + results.shareImage;
 		var acc = this.titleAcc || this.title;
 		var gen = this.titleGen || acc;
 		var title = 'Я знаю ' + acc +' на ' + Math.round(results.percent) + '%. А вы?';
-		var description = 'Проверьте свое знание ' + gen + '.';
+		var description = this.subtitle || 'Проверьте свое знание ' + gen + '.';
+		var fbUrl = url + '?' + $.param({ image: results.shareImage, title: title });
 		results.share = {
 			vk: 'http://vk.com/share.php?' + $.param({ url: url, image: img, title: title, description: description }),
-			fb: 'https://www.facebook.com/sharer/sharer.php?' + $.param({ s: 100, p: { url: url, title: title, summary: description, images: [img] }}),
+			fb: 'https://www.facebook.com/sharer/sharer.php?' + $.param({ s: 100, p: { url: fbUrl, title: title, summary: description, images: [img] }}),
 			twitter: 'https://twitter.com/intent/tweet?' + $.param({ url: url, text: title }),
 			lj: 'http://www.livejournal.com/update.bml?' + $.param({ subject: title, event: '<a href="' + url + '"><img src="' + img + '"></a><br><a href="' + url + '">Проверьте</a> свое знание ' + gen + '.' })
 		};

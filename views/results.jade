@@ -20,7 +20,7 @@ p Поделитесь результатом с друзьями:
 		a(class=name, href=url, target="_blank")
 if shareImage
 	p Ссылка на картинку:
-		input.link(readonly, value='http://mquiz.ru' + shareImage)
+		input.link(readonly, value=shareImage)
 if quiz.stats.games
 	p.show-statistics-container Закончить игру и #[span.pseudolink.show-statistics посмотреть полную статистику].
 button.continue Продолжить

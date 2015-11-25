@@ -50,9 +50,10 @@ app.get('/' + quizRoute, function(req, res) {
 		quiz: q,
 		show: req.query.game,
 		title: q.title,
+		ogtitle: req.query.title,
 		description: q.description || q.subtitle,
 		keywords: q.keywords,
-		image: 'http://mquiz.ru/static/quiz/' + q.name + '/' + q.logo,
+		image: req.query.image || 'http://mquiz.ru/static/quiz/' + q.name + '/' + q.logo,
 		tryalso: stuff.shuffle(quizzes.filter(e => e != q)).slice(0, 3) // 3 random quizzess except the current
 	});
 });
