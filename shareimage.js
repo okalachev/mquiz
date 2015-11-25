@@ -4,18 +4,21 @@ var gm = require('gm').subClass({ imageMagick: true });
 var cheerio = require('cheerio');
 
 var CACHE_SIZE = 20;
-var IMAGE_WIDTH = 470;
+var IMAGE_WIDTH = 300;
+var FB_IMAGE_WIDTH = 1200;
+var FB_IMAGE_HEIGHT = 630;
 var STROKE_WIDTH = 20;
 var STROKE_LENGTH = 60;
 
 var cache = [];
 
-module.exports = function(quiz, correct, res) {
-	var cacheKey = JSON.stringify({name: quiz.name, correct: correct});
+module.exports = function(quiz, correct, fb, res) {
+	var format = fb  ? 'jpeg': 'png';
+	var cacheKey = JSON.stringify({name: quiz.name, fb: Boolean(fb), correct: correct});
 	var cached = cache.find(item => item.key == cacheKey);
 
 	if (cached) {
-		res && res.header('Content-Type', 'image/png').send(cached.buffer);
+		res && res.header('Content-Type', 'image/' + format).send(cached.buffer);
 	} else if (quiz.vectorMap) {
 		var svgDoc = cheerio.load(quiz.svgContent);
 		var root = svgDoc.root();
@@ -65,21 +68,29 @@ module.exports = function(quiz, correct, res) {
 	}
 
 	function done() {
-		img
-			.resize(IMAGE_WIDTH)
-			.stream('png', function (err, stdout, stderr) {
-				var chunks = [];
-				assert.equal(err, null);
-				stderr.pipe(process.stderr);
-				res && stdout.pipe(res);
-				stdout.on('data', chunk => chunks.push(chunk));
-				stdout.on('end', function() {
-					var buffer = Buffer.concat(chunks);
-					cache.push({ key: cacheKey, buffer }); // save to the cache
-					if (cache.length > CACHE_SIZE) {
-						cache.shift(); // remove the oldest cached image
-					}
-				});
+		if (fb) {
+			// Large image format
+			img
+				.resize(FB_IMAGE_WIDTH, FB_IMAGE_HEIGHT, '>')
+				.gravity('Center')
+				.background('#f5f5f5')
+				.extent(FB_IMAGE_WIDTH, FB_IMAGE_HEIGHT);
+		} else {
+			img.resize(IMAGE_WIDTH);
+		}
+		img.stream(format, function (err, stdout, stderr) {
+			var chunks = [];
+			assert.equal(err, null);
+			stderr.pipe(process.stderr);
+			res && stdout.pipe(res);
+			stdout.on('data', chunk => chunks.push(chunk));
+			stdout.on('end', function() {
+				var buffer = Buffer.concat(chunks);
+				cache.push({ key: cacheKey, buffer }); // save to the cache
+				if (cache.length > CACHE_SIZE) {
+					cache.shift(); // remove the oldest cached image
+				}
 			});
+		});
 	}
 };

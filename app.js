@@ -125,7 +125,7 @@ app.get('/' + quizRoute + '/statistics', function(req, res) {
 
 // Share image
 app.get('/' + quizRoute + '/shareimage', function(req, res) {
-	shareimage(req.quiz, Object.keys(req.query), res);
+	shareimage(req.quiz, Object.keys(req.query), req.query._fb, res);
 });
 
 var secretCodeHash = process.env.SECRET_CODE_HASH;
