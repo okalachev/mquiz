@@ -3,12 +3,20 @@ var fs = require('fs');
 var gm = require('gm').subClass({ imageMagick: true });
 var cheerio = require('cheerio');
 
+var CACHE_SIZE = 20;
 var IMAGE_WIDTH = 470;
 var STROKE_WIDTH = 20;
 var STROKE_LENGTH = 60;
 
+var cache = [];
+
 module.exports = function(quiz, correct, res) {
-	if (quiz.vectorMap) {
+	var cacheKey = JSON.stringify({name: quiz.name, correct: correct});
+	var cached = cache.find(item => item.key == cacheKey);
+
+	if (cached) {
+		res && res.header('Content-Type', 'image/png').send(cached.buffer);
+	} else if (quiz.vectorMap) {
 		var svgDoc = cheerio.load(quiz.svgContent);
 		var root = svgDoc.root();
 		// Paint correct and wrong areas
@@ -53,17 +61,25 @@ module.exports = function(quiz, correct, res) {
 			done();
 		});
 	} else {
-		res.status(406).send('Map not found');
+		res && res.status(406).send('Map not found');
 	}
 
 	function done() {
 		img
 			.resize(IMAGE_WIDTH)
 			.stream('png', function (err, stdout, stderr) {
+				var chunks = [];
 				assert.equal(err, null);
 				stderr.pipe(process.stderr);
-				stdout.pipe(res);
+				res && stdout.pipe(res);
+				stdout.on('data', chunk => chunks.push(chunk));
+				stdout.on('end', function() {
+					var buffer = Buffer.concat(chunks);
+					cache.push({ key: cacheKey, buffer }); // save to the cache
+					if (cache.length > CACHE_SIZE) {
+						cache.shift(); // remove the oldest cached image
+					}
+				});
 			});
 	}
 };
-

@@ -7,6 +7,7 @@ var bcrypt = require('bcrypt');
 var mongo = require('./mongo');
 var stuff = require('./stuff');
 var quiz = require('./quiz/quiz');
+var shareimage = require('./shareimage');
 var quizzes = quiz.quizzes;
 
 var app = module.exports = express();
@@ -104,6 +105,8 @@ app.post('/' + quizRoute + '/register', function(req, res) {
 		}).success(() => res.sendStatus(200));
 	}
 	query.error(function(err) { console.error(err) });
+	// Pre-generate and cache share image to send it rapidly
+	shareimage(req.quiz, results.correctIds);
 });
 
 app.get('/game', function(req, res) {
@@ -119,9 +122,9 @@ app.get('/' + quizRoute + '/statistics', function(req, res) {
 	res.json(req.quiz.stats);
 });
 
-// Result image
+// Share image
 app.get('/' + quizRoute + '/shareimage', function(req, res) {
-	require('./shareimage')(req.quiz, Object.keys(req.query), res);
+	shareimage(req.quiz, Object.keys(req.query), res);
 });
 
 var secretCodeHash = process.env.SECRET_CODE_HASH;
