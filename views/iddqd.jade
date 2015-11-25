@@ -20,6 +20,6 @@ table
 				a(href='/' + game.quiz + '/?game=' + game._id, title=game.datetime)=moment(game.datetime).fromNow()
 			td=game.addr
 			td=game.attempts.length
-			td=game.points
+			td=stuff.formatNum(game.points)
 			td=stuff.formatNum(game.percent)
 			td=game.attempts.pop().spent

@@ -151,7 +151,7 @@ app.get('/fetch', cookieParser, admin, function(req, res) {
 });
 
 app.get('/iddqd', cookieParser, admin, function(req, res, next) {
-	mongo.get('games').find().then(
+	mongo.get('games').find({}, { attempts: false }).then(
 		games => res.render('iddqd', { games: games.sort((a, b) => b.datetime - a.datetime) }),
 		err => next(err)
 	);
