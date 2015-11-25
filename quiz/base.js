@@ -514,12 +514,12 @@ module.exports = {
 		results.spentString = stuff.intervalString(this.results.spent);
 		results.quiz = this;
 		results.shareImage = '/' + this.name + '/shareimage?' + results.correctIds.join('&');
-		var url = 'http://mquiz.ru';
+		var url = 'http://mquiz.ru/' + this.name;
 		var img = url + results.shareImage;
 		var acc = this.titleAcc || this.title;
 		var gen = this.titleGen || acc;
-		var title = 'Я знаю ' + acc +' на ' + Math.round(results.percent) + ' %. А вы?';
-		var description = '#mquiz Проверьте свое знание ' + gen + '.';
+		var title = 'Я знаю ' + acc +' на ' + Math.round(results.percent) + '%. А вы?';
+		var description = 'Проверьте свое знание ' + gen + '.';
 		results.share = {
 			vk: 'http://vk.com/share.php?' + $.param({ url: url, image: img, title: title, description: description }),
 			fb: 'https://www.facebook.com/sharer/sharer.php?' + $.param({ s: 100, p: { url: url, title: title, summary: description, images: [img] }}),
