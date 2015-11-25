@@ -1,0 +1,25 @@
+doctype html
+style(rel=stylesheet).
+	table { border-collapse: collapse; }
+	table td { border: 1px solid silver; padding: 5px; }
+table
+	tr
+		th #
+		th Quiz
+		th Datetime
+		th IP
+		th Atttemps
+		th Points
+		th Percent
+		th Spent
+	each game, i in games
+		tr
+			td=i+1
+			td=game.quiz
+			td
+				a(href='/' + game.quiz + '/?game=' + game._id, title=game.datetime)=moment(game.datetime).fromNow()
+			td=game.addr
+			td=game.attempts.length
+			td=game.points
+			td=stuff.formatNum(game.percent)
+			td=game.attempts.pop().spent

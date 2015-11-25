@@ -1,0 +1,30 @@
+- var stats = quiz.stats
+.right
+	.title Распределение результатов
+	.distribution
+		each bar, i in stats.distribution
+			- var value = bar / stats.games * 100
+			- var from = i * 10 + 1
+			- if (i == 0 && quiz.countEmptyGames) from = 0;
+			- var to = i * 10 + 10
+			- var my = quiz.results && quiz.results.percent >= from && quiz.results.percent <= to
+			.stat.scale(title=stuff.formatNum(value) + ' %', class=my ? 'hl' : '')
+				.value #{from}…#{to} %
+				.bar(data-width=value + '%')
+	.title Частые ошибки
+	ol
+		each mistake in stats.mistakes
+			li #[del=mistake.answer]
+				!=quiz.getEntryIcon(mistake.id)
+				=quiz.entriesById[mistake.id].name
+.title.with-inner
+	span.inner Угадываемые #{quiz.entryName.plural || quiz.entryName[2]}
+	span.show-heatmap(data-label='Показать тепловую карту', data-alter='Скрыть тепловую карту') Показать тепловую карту
+ol.entries
+	each entry in stats.famous
+		- var id = entry._id
+		li(class=quiz.results && quiz.results.answers[id])
+			!=quiz.getEntryIcon(id)
+			span.name=quiz.entriesById[id].name
+			span.percent #{stuff.formatNum(entry.value / stats.games * 100)} %
+p Статистика обновляется приблизительно раз в сутки.

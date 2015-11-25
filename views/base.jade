@@ -1,0 +1,39 @@
+doctype html
+html
+	head
+		block head
+			- var t = 'mquiz' + (title ? ': ' + title : '');
+			- var d = description || 'mquiz: сборник онлайн-квизов, сделанных с душой'
+			- var kw = (keywords ? keywords.join(', ') + ', ' : '') + 'тест, викторина, квиз, угадайка, игра, память';
+			title=t
+			meta(name='description', content=d)
+			meta(name='keywords', content=kw)
+			meta(property='og:title', content=t)
+			meta(property='og:description', content=d)
+			meta(property='og:locale', content='ru_RU')
+			meta(property='og:site_name', content='mquiz')
+			if image
+				meta(property='og:image', content=image)
+			link(rel='stylesheet', href='/static/main.css')
+			script(type='text/javascript', src='/static/jquery-1.11.3.js')
+			script(type='text/javascript', src='/static/jquery-ui.js')
+			script(type='text/javascript', src='/static/prefixfree.min.js')
+			script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js')
+			script(type='text/javascript', src='/static/templates.js')
+			script(type='text/javascript', src='/static/autogrow.js')
+			script(type='text/javascript') window.env = '#{settings.env}';
+	body
+		block body
+			.page
+				a.head.flashy(href='/', title='На главную')
+					span m
+					span q
+					span u
+					span i
+					span z
+				block content
+			footer
+				a.github(href="#") github
+				| дизайн и разработка — #[a(href="http://chev.me") я]
+		script(type='text/javascript', src='/static/lib/main.js')
+		script(id='dsq-count-scr', src='//mquiz.disqus.com/count.js', async)

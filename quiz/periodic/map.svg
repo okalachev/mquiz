@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="periodic" x="0px" y="0px" viewBox="0 127.1 1700.8 929.1" enable-background="new 0 127.1 1700.8 929.1" xml:space="preserve">
+<desc>Created by HiQPdf</desc>
+<style>
+	#periodic * {
+		font-family: Helvetica;
+	}
+	#periodic .sym {
+		font-family: "Helvetica Neue", "Roboto";
+		font-weight: 100;
+	}
+	#periodic .num {
+		visibility: hidden;
+	}
+	#periodic.progress .num {
+		visibility: visible;
+	}
+</style>
+<g>
+	<g transform="matrix(1,0,0,1,0,0)">
+	</g>
+	<g transform="matrix(1,0,0,1,0,0)">
+	</g>
+	<g transform="matrix(1,0,0,1,0,0)">
+	</g>
+	<g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M189,599.5h94.5V694H189V599.5"/>
+	</g>
+	<g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M189,694h94.5v94.5H189V694"/>
+	</g>
+
+	<g class="area" id="1"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M0,127.1h94.5v94.5H0V127.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 77.165 150.7061)" class="num" font-size="15.748">1</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 27.5588 193.2254)" class="sym" font-size="55.1181">H</text>
+	</g></g>
+	
+	
+	<g class="area" id="2"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#C2FFFE" d="M1606.3,127.1h94.5v94.5h-94.5V127.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1683.464 150.7061)" class="num" font-size="15.748">2</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1622.0469 193.2254)" class="sym" font-size="55.1181">He</text>
+	</g></g>
+	
+	
+	<g class="area" id="3"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,221.6h94.5v94.5H0V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 77.165 245.1945)" class="num" font-size="15.748">3</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 23.6218 287.7139)" class="sym" font-size="55.1181">Li</text>
+	</g></g>
+	
+	
+	<g class="area" id="4"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,221.6H189v94.5H94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 171.6534 245.1945)" class="num" font-size="15.748">4</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 111.8108 287.7139)" class="sym" font-size="55.1181">Be</text>
+	</g></g>
+	
+	
+	<g class="area" id="5"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1133.9,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1211.0233 245.1945)" class="num" font-size="15.748">5</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1162.9921 287.7139)" class="sym" font-size="55.1181">B</text>
+	</g></g>
+	
+	
+	<g class="area" id="6"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1228.3,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1305.5117 245.1945)" class="num" font-size="15.748">6</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1257.4805 287.7139)" class="sym" font-size="55.1181">C</text>
+	</g></g>
+	
+	
+	<g class="area" id="7"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1322.8,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1400 245.1945)" class="num" font-size="15.748">7</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1350.3927 287.7139)" class="sym" font-size="55.1181">N</text>
+	</g></g>
+	
+	
+	<g class="area" id="8"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1417.3,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1494.4874 245.1945)" class="num" font-size="15.748">8</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1444.8809 287.7139)" class="sym" font-size="55.1181">O</text>
+	</g></g>
+	
+	
+	<g class="area" id="9"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1588.9756 245.1945)" class="num" font-size="15.748">9</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1544.0938 287.7139)" class="sym" font-size="55.1181">F</text>
+	</g></g>
+	
+	
+	<g class="area" id="10"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#C2FFFE" d="M1606.3,221.6h94.5v94.5h-94.5V221.6"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 245.1945)" class="num" font-size="15.748">10</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1622.0469 287.7139)" class="sym" font-size="55.1181">Ne</text>
+	</g></g>
+	
+	
+	<g class="area" id="11"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,316.1h94.5v94.5H0V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 67.7164 339.6818)" class="num" font-size="15.748">11</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 14.9606 382.2023)" class="sym" font-size="55.1181">Na</text>
+	</g></g>
+	
+	
+	<g class="area" id="12"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,316.1H189v94.5H94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 162.2042 339.6818)" class="num" font-size="15.748">12</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 103.9367 382.2023)" class="sym" font-size="55.1181">Mg</text>
+	</g></g>
+	
+	
+	<g class="area" id="13"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1133.9,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 339.6818)" class="num" font-size="15.748">13</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1155.1171 382.2023)" class="sym" font-size="55.1181">Al</text>
+	</g></g>
+	
+	
+	<g class="area" id="14"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1228.3,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 339.6818)" class="num" font-size="15.748">14</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1253.543 382.2023)" class="sym" font-size="55.1181">Si</text>
+	</g></g>
+	
+	
+	<g class="area" id="15"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1322.8,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1390.5509 339.6818)" class="num" font-size="15.748">15</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1354.3302 382.2023)" class="sym" font-size="55.1181">P</text>
+	</g></g>
+	
+	
+	<g class="area" id="16"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1417.3,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1485.0391 339.6818)" class="num" font-size="15.748">16</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1449.6055 382.2023)" class="sym" font-size="55.1181">S</text>
+	</g></g>
+	
+	
+	<g class="area" id="17"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1579.5275 339.6818)" class="num" font-size="15.748">17</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1533.8574 382.2023)" class="sym" font-size="55.1181">Cl</text>
+	</g></g>
+	
+	
+	<g class="area" id="18"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#C2FFFE" d="M1606.3,316.1h94.5v94.5h-94.5V316.1"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 339.6818)" class="num" font-size="15.748">18</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1625.1963 382.2023)" class="sym" font-size="55.1181">Ar</text>
+	</g></g>
+	
+	
+	<g class="area" id="19"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,410.5h94.5V505H0V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 67.7164 434.1702)" class="num" font-size="15.748">19</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 27.5588 476.6895)" class="sym" font-size="55.1181">K</text>
+	</g></g>
+	
+	
+	<g class="area" id="20"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,410.5H189V505H94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 162.2042 434.1702)" class="num" font-size="15.748">20</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 111.0236 476.6895)" class="sym" font-size="55.1181">Ca</text>
+	</g></g>
+	
+	
+	<g class="area" id="21"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M189,410.5h94.5V505H189V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 256.6926 434.1702)" class="num" font-size="15.748">21</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 209.4484 476.6895)" class="sym" font-size="55.1181">Sc</text>
+	</g></g>
+	
+	
+	<g class="area" id="22"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M283.5,410.5H378V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 351.18 434.1702)" class="num" font-size="15.748">22</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 307.0861 476.6895)" class="sym" font-size="55.1181">Ti</text>
+	</g></g>
+	
+	
+	<g class="area" id="23"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M378,410.5h94.5V505H378V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 445.6689 434.1702)" class="num" font-size="15.748">23</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 405.5118 476.6895)" class="sym" font-size="55.1181">V</text>
+	</g></g>
+	
+	
+	<g class="area" id="24"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M472.4,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 540.1564 434.1702)" class="num" font-size="15.748">24</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 492.1252 476.6895)" class="sym" font-size="55.1181">Cr</text>
+	</g></g>
+	
+	
+	<g class="area" id="25"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M566.9,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 634.6454 434.1702)" class="num" font-size="15.748">25</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 575.5901 476.6895)" class="sym" font-size="55.1181">Mn</text>
+	</g></g>
+	
+	
+	<g class="area" id="26"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M661.4,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 729.1338 434.1702)" class="num" font-size="15.748">26</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 681.8896 476.6895)" class="sym" font-size="55.1181">Fe</text>
+	</g></g>
+	
+	
+	<g class="area" id="27"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M755.9,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 823.6213 434.1702)" class="num" font-size="15.748">27</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 771.6526 476.6895)" class="sym" font-size="55.1181">Co</text>
+	</g></g>
+	
+	
+	<g class="area" id="28"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M850.4,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 918.1093 434.1702)" class="num" font-size="15.748">28</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 870.8652 476.6895)" class="sym" font-size="55.1181">Ni</text>
+	</g></g>
+	
+	
+	<g class="area" id="29"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M944.9,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1012.5978 434.1702)" class="num" font-size="15.748">29</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 959.842 476.6895)" class="sym" font-size="55.1181">Cu</text>
+	</g></g>
+	
+	
+	<g class="area" id="30"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M1039.4,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1107.0858 434.1702)" class="num" font-size="15.748">30</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1055.9045 476.6895)" class="sym" font-size="55.1181">Zn</text>
+	</g></g>
+	
+	
+	<g class="area" id="31"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1133.9,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 434.1702)" class="num" font-size="15.748">31</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1148.8186 476.6895)" class="sym" font-size="55.1181">Ga</text>
+	</g></g>
+	
+	
+	<g class="area" id="32"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1228.3,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 434.1702)" class="num" font-size="15.748">32</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1244.094 476.6895)" class="sym" font-size="55.1181">Ge</text>
+	</g></g>
+	
+	
+	<g class="area" id="33"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1322.8,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1390.5509 434.1702)" class="num" font-size="15.748">33</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1340.1572 476.6895)" class="sym" font-size="55.1181">As</text>
+	</g></g>
+	
+	
+	<g class="area" id="34"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1417.3,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1485.0391 434.1702)" class="num" font-size="15.748">34</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1437.7949 476.6895)" class="sym" font-size="55.1181">Se</text>
+	</g></g>
+	
+	
+	<g class="area" id="35"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1579.5275 434.1702)" class="num" font-size="15.748">35</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1531.4962 476.6895)" class="sym" font-size="55.1181">Br</text>
+	</g></g>
+	
+	
+	<g class="area" id="36"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#C2FFFE" d="M1606.3,410.5h94.5V505h-94.5V410.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 434.1702)" class="num" font-size="15.748">36</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1624.4092 476.6895)" class="sym" font-size="55.1181">Kr</text>
+	</g></g>
+	
+	
+	<g class="area" id="37"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,505h94.5v94.5H0V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 67.7164 528.6581)" class="num" font-size="15.748">37</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 14.9606 571.1779)" class="sym" font-size="55.1181">Rb</text>
+	</g></g>
+	
+	
+	<g class="area" id="38"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,505H189v94.5H94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 162.2042 528.6581)" class="num" font-size="15.748">38</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 117.3224 571.1779)" class="sym" font-size="55.1181">Sr</text>
+	</g></g>
+	
+	
+	<g class="area" id="39"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M189,505h94.5v94.5H189V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 256.6926 528.6581)" class="num" font-size="15.748">39</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 216.5352 571.1779)" class="sym" font-size="55.1181">Y</text>
+	</g></g>
+	
+	
+	<g class="area" id="40"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M283.5,505H378v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 351.18 528.6581)" class="num" font-size="15.748">40</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 304.7246 571.1779)" class="sym" font-size="55.1181">Zr</text>
+	</g></g>
+	
+	
+	<g class="area" id="41"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M378,505h94.5v94.5H378V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 445.6689 528.6581)" class="num" font-size="15.748">41</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 391.338 571.1779)" class="sym" font-size="55.1181">Nb</text>
+	</g></g>
+	
+	
+	<g class="area" id="42"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M472.4,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 540.1564 528.6581)" class="num" font-size="15.748">42</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 481.8896 571.1779)" class="sym" font-size="55.1181">Mo</text>
+	</g></g>
+	
+	
+	<g class="area" id="43"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M566.9,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 634.6454 528.6581)" class="num" font-size="15.748">43</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 585.8261 571.1779)" class="sym" font-size="55.1181">Tc</text>
+	</g></g>
+	
+	
+	<g class="area" id="44"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M661.4,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 729.1338 528.6581)" class="num" font-size="15.748">44</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 676.3771 571.1779)" class="sym" font-size="55.1181">Ru</text>
+	</g></g>
+	
+	
+	<g class="area" id="45"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M755.9,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 823.6213 528.6581)" class="num" font-size="15.748">45</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 770.8652 571.1779)" class="sym" font-size="55.1181">Rh</text>
+	</g></g>
+	
+	
+	<g class="area" id="46"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M850.4,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 918.1093 528.6581)" class="num" font-size="15.748">46</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 867.7161 571.1779)" class="sym" font-size="55.1181">Pd</text>
+	</g></g>
+	
+	
+	<g class="area" id="47"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M944.9,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1012.5978 528.6581)" class="num" font-size="15.748">47</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 959.842 571.1779)" class="sym" font-size="55.1181">Ag</text>
+	</g></g>
+	
+	
+	<g class="area" id="48"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M1039.4,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1107.0858 528.6581)" class="num" font-size="15.748">48</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1054.3301 571.1779)" class="sym" font-size="55.1181">Cd</text>
+	</g></g>
+	
+	
+	<g class="area" id="49"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1133.9,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 528.6581)" class="num" font-size="15.748">49</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1158.2676 571.1779)" class="sym" font-size="55.1181">In</text>
+	</g></g>
+	
+	
+	<g class="area" id="50"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1228.3,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 528.6581)" class="num" font-size="15.748">50</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1246.4561 571.1779)" class="sym" font-size="55.1181">Sn</text>
+	</g></g>
+	
+	
+	<g class="area" id="51"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1322.8,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1390.5509 528.6581)" class="num" font-size="15.748">51</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1340.9443 571.1779)" class="sym" font-size="55.1181">Sb</text>
+	</g></g>
+	
+	
+	<g class="area" id="52"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1417.3,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1485.0391 528.6581)" class="num" font-size="15.748">52</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1436.2197 571.1779)" class="sym" font-size="55.1181">Te</text>
+	</g></g>
+	
+	
+	<g class="area" id="53"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1579.5275 528.6581)" class="num" font-size="15.748">53</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1550.3927 571.1779)" class="sym" font-size="55.1181">I</text>
+	</g></g>
+	
+	
+	<g class="area" id="54"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#C2FFFE" d="M1606.3,505h94.5v94.5h-94.5V505"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 528.6581)" class="num" font-size="15.748">54</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1622.0469 571.1779)" class="sym" font-size="55.1181">Xe</text>
+	</g></g>
+	
+	
+	<g class="area" id="55"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,599.5h94.5V694H0V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 67.7164 623.1465)" class="num" font-size="15.748">55</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 18.1098 665.6663)" class="sym" font-size="55.1181">Cs</text>
+	</g></g>
+	
+	
+	<g class="area" id="56"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,599.5H189V694H94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 162.2042 623.1465)" class="num" font-size="15.748">56</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 111.0236 665.6663)" class="sym" font-size="55.1181">Ba</text>
+	</g></g>
+	
+	
+	<g class="area" id="72"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M283.5,599.5H378V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 351.18 623.1465)" class="num" font-size="15.748">72</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 302.3613 665.6663)" class="sym" font-size="55.1181">Hf</text>
+	</g></g>
+	
+	
+	<g class="area" id="73"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M378,599.5h94.5V694H378V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 445.6689 623.1465)" class="num" font-size="15.748">73</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 396.0627 665.6663)" class="sym" font-size="55.1181">Ta</text>
+	</g></g>
+	
+	
+	<g class="area" id="74"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M472.4,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 540.1564 623.1465)" class="num" font-size="15.748">74</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 493.7002 665.6663)" class="sym" font-size="55.1181">W</text>
+	</g></g>
+	
+	
+	<g class="area" id="75"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M566.9,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 634.6454 623.1465)" class="num" font-size="15.748">75</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 584.2512 665.6663)" class="sym" font-size="55.1181">Re</text>
+	</g></g>
+	
+	
+	<g class="area" id="76"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M661.4,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 729.1338 623.1465)" class="num" font-size="15.748">76</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 677.9521 665.6663)" class="sym" font-size="55.1181">Os</text>
+	</g></g>
+	
+	
+	<g class="area" id="77"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M755.9,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 823.6213 623.1465)" class="num" font-size="15.748">77</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 785.0391 665.6663)" class="sym" font-size="55.1181">Ir</text>
+	</g></g>
+	
+	
+	<g class="area" id="78"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M850.4,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 918.1093 623.1465)" class="num" font-size="15.748">78</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 874.0156 665.6663)" class="sym" font-size="55.1181">Pt</text>
+	</g></g>
+	
+	
+	<g class="area" id="79"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M944.9,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1012.5978 623.1465)" class="num" font-size="15.748">79</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 959.0546 665.6663)" class="sym" font-size="55.1181">Au</text>
+	</g></g>
+	
+	
+	<g class="area" id="80"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M1039.4,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1107.0858 623.1465)" class="num" font-size="15.748">80</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1053.543 665.6663)" class="sym" font-size="55.1181">Hg</text>
+	</g></g>
+	
+	
+	<g class="area" id="81"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1133.9,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 623.1465)" class="num" font-size="15.748">81</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1157.4805 665.6663)" class="sym" font-size="55.1181">Tl</text>
+	</g></g>
+	
+	
+	<g class="area" id="82"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1228.3,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 623.1465)" class="num" font-size="15.748">82</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1245.6689 665.6663)" class="sym" font-size="55.1181">Pb</text>
+	</g></g>
+	
+	
+	<g class="area" id="83"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1322.8,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1390.5509 623.1465)" class="num" font-size="15.748">83</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1344.8809 665.6663)" class="sym" font-size="55.1181">Bi</text>
+	</g></g>
+	
+	
+	<g class="area" id="84"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCB9B" d="M1417.3,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1485.0391 623.1465)" class="num" font-size="15.748">84</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1435.4327 665.6663)" class="sym" font-size="55.1181">Po</text>
+	</g></g>
+	
+	
+	<g class="area" id="85"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1579.5275 623.1465)" class="num" font-size="15.748">85</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1532.2832 665.6663)" class="sym" font-size="55.1181">At</text>
+	</g></g>
+	
+	
+	<g class="area" id="86"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1606.3,599.5h94.5V694h-94.5V599.5"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 623.1465)" class="num" font-size="15.748">86</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1621.2598 665.6663)" class="sym" font-size="55.1181">Rn</text>
+	</g></g>
+	
+	
+	<g class="area" id="87"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FD6769" d="M0,694h94.5v94.5H0V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 67.7164 717.6349)" class="num" font-size="15.748">87</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 22.8346 760.1543)" class="sym" font-size="55.1181">Fr</text>
+	</g></g>
+	
+	
+	<g class="area" id="88"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEDDB0" d="M94.5,694H189v94.5H94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 162.2042 717.6349)" class="num" font-size="15.748">88</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 111.0236 760.1543)" class="sym" font-size="55.1181">Ra</text>
+	</g></g>
+	
+	
+	<g class="area" id="104"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M283.5,694H378v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 341.7324 717.6349)" class="num" font-size="15.748">104</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 303.9367 760.1543)" class="sym" font-size="55.1181">Rf</text>
+	</g></g>
+	
+	
+	<g class="area" id="105"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M378,694h94.5v94.5H378V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 436.2208 717.6349)" class="num" font-size="15.748">105</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 391.338 760.1543)" class="sym" font-size="55.1181">Db</text>
+	</g></g>
+	
+	
+	<g class="area" id="106"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M472.4,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 530.7079 717.6349)" class="num" font-size="15.748">106</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 491.3382 760.1543)" class="sym" font-size="55.1181">Sg</text>
+	</g></g>
+	
+	
+	<g class="area" id="107"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M566.9,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 625.1963 717.6349)" class="num" font-size="15.748">107</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 581.8896 760.1543)" class="sym" font-size="55.1181">Bh</text>
+	</g></g>
+	
+	
+	<g class="area" id="108"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M661.4,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 719.6848 717.6349)" class="num" font-size="15.748">108</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 677.9521 760.1543)" class="sym" font-size="55.1181">Hs</text>
+	</g></g>
+	
+	
+	<g class="area" id="109"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M755.9,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 814.1728 717.6349)" class="num" font-size="15.748">109</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 770.8652 760.1543)" class="sym" font-size="55.1181">Mt</text>
+	</g></g>
+	
+	
+	<g class="area" id="110"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M850.4,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 908.6603 717.6349)" class="num" font-size="15.748">110</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 866.9286 760.1543)" class="sym" font-size="55.1181">Ds</text>
+	</g></g>
+	
+	
+	<g class="area" id="111"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M944.9,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1003.1493 717.6349)" class="num" font-size="15.748">111</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 960.6291 760.1543)" class="sym" font-size="55.1181">Rg</text>
+	</g></g>
+	
+	
+	<g class="area" id="112"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC0C1" d="M1039.4,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1097.6377 717.6349)" class="num" font-size="15.748">112</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1054.3301 760.1543)" class="sym" font-size="55.1181">Cn</text>
+	</g></g>
+	
+	
+	<g class="area" id="113"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1133.9,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1192.1252 717.6349)" class="num" font-size="15.748">113</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1140.1565 760.1543)" class="sym" font-size="55.1181">Uut</text>
+	</g></g>
+	
+	
+	<g class="area" id="114"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1228.3,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1286.6132 717.6349)" class="num" font-size="15.748">114</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1253.543 760.1543)" class="sym" font-size="55.1181">Fl</text>
+	</g></g>
+	
+	
+	<g class="area" id="115"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1322.8,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1381.1016 717.6349)" class="num" font-size="15.748">115</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1322.8339 760.1543)" class="sym" font-size="55.1181">Uup</text>
+	</g></g>
+	
+	
+	<g class="area" id="116"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#CCCCCC" d="M1417.3,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1475.59 717.6349)" class="num" font-size="15.748">116</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1435.4327 760.1543)" class="sym" font-size="55.1181">Lv</text>
+	</g></g>
+	
+	
+	<g class="area" id="117"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FFFE9F" d="M1511.8,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1570.0782 717.6349)" class="num" font-size="15.748">117</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1514.9601 760.1543)" class="sym" font-size="55.1181">Uus</text>
+	</g></g>
+	
+	
+	<g class="area" id="118"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#A3FDA4" d="M1606.3,694h94.5v94.5h-94.5V694"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1664.5664 717.6349)" class="num" font-size="15.748">118</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1607.0861 760.1543)" class="sym" font-size="55.1181">Uuo</text>
+	</g></g>
+	
+	
+	<g class="area" id="57"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M283.5,867.2H378v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 351.18 890.8635)" class="num" font-size="15.748">57</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 301.5743 933.3829)" class="sym" font-size="55.1181">La</text>
+	</g></g>
+	
+	
+	<g class="area" id="58"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M378,867.2h94.5v94.5H378V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 445.6689 890.8635)" class="num" font-size="15.748">58</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 395.2755 933.3829)" class="sym" font-size="55.1181">Ce</text>
+	</g></g>
+	
+	
+	<g class="area" id="59"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M472.4,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 540.1564 890.8635)" class="num" font-size="15.748">59</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 494.4882 933.3829)" class="sym" font-size="55.1181">Pr</text>
+	</g></g>
+	
+	
+	<g class="area" id="60"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M566.9,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 634.6454 890.8635)" class="num" font-size="15.748">60</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 580.3146 933.3829)" class="sym" font-size="55.1181">Nd</text>
+	</g></g>
+	
+	
+	<g class="area" id="61"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M661.4,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 729.1338 890.8635)" class="num" font-size="15.748">61</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 671.6526 933.3829)" class="sym" font-size="55.1181">Pm</text>
+	</g></g>
+	
+	
+	<g class="area" id="62"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M755.9,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 823.6213 890.8635)" class="num" font-size="15.748">62</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 766.9286 933.3829)" class="sym" font-size="55.1181">Sm</text>
+	</g></g>
+	
+	
+	<g class="area" id="63"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M850.4,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 918.1093 890.8635)" class="num" font-size="15.748">63</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 866.9286 933.3829)" class="sym" font-size="55.1181">Eu</text>
+	</g></g>
+	
+	
+	<g class="area" id="64"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M944.9,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1012.5978 890.8635)" class="num" font-size="15.748">64</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 958.2675 933.3829)" class="sym" font-size="55.1181">Gd</text>
+	</g></g>
+	
+	
+	<g class="area" id="65"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1039.4,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1107.0858 890.8635)" class="num" font-size="15.748">65</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1055.9045 933.3829)" class="sym" font-size="55.1181">Tb</text>
+	</g></g>
+	
+	
+	<g class="area" id="66"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1133.9,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 890.8635)" class="num" font-size="15.748">66</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1148.0315 933.3829)" class="sym" font-size="55.1181">Dy</text>
+	</g></g>
+	
+	
+	<g class="area" id="67"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1228.3,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 890.8635)" class="num" font-size="15.748">67</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1242.5195 933.3829)" class="sym" font-size="55.1181">Ho</text>
+	</g></g>
+	
+	
+	<g class="area" id="68"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1322.8,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1390.5509 890.8635)" class="num" font-size="15.748">68</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1344.0938 933.3829)" class="sym" font-size="55.1181">Er</text>
+	</g></g>
+	
+	
+	<g class="area" id="69"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1417.3,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1485.0391 890.8635)" class="num" font-size="15.748">69</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1426.7716 933.3829)" class="sym" font-size="55.1181">Tm</text>
+	</g></g>
+	
+	
+	<g class="area" id="70"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1511.8,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1579.5275 890.8635)" class="num" font-size="15.748">70</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1525.1963 933.3829)" class="sym" font-size="55.1181">Yb</text>
+	</g></g>
+	
+	
+	<g class="area" id="71"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#FEC1FE" d="M1606.3,867.2h94.5v94.5h-94.5V867.2"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1674.0156 890.8635)" class="num" font-size="15.748">71</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1622.8341 933.3829)" class="sym" font-size="55.1181">Lu</text>
+	</g></g>
+	
+	
+	<g class="area" id="89"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M283.5,961.7H378v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 351.18 985.3515)" class="num" font-size="15.748">89</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 300.0002 1027.8712)" class="sym" font-size="55.1181">Ac</text>
+	</g></g>
+	
+	
+	<g class="area" id="90"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M378,961.7h94.5v94.5H378V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 445.6689 985.3515)" class="num" font-size="15.748">90</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 394.4882 1027.8712)" class="sym" font-size="55.1181">Th</text>
+	</g></g>
+	
+	
+	<g class="area" id="91"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M472.4,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 540.1564 985.3515)" class="num" font-size="15.748">91</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 491.3382 1027.8712)" class="sym" font-size="55.1181">Pa</text>
+	</g></g>
+	
+	
+	<g class="area" id="92"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M566.9,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 634.6454 985.3515)" class="num" font-size="15.748">92</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 595.2756 1027.8712)" class="sym" font-size="55.1181">U</text>
+	</g></g>
+	
+	
+	<g class="area" id="93"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M661.4,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 729.1338 985.3515)" class="num" font-size="15.748">93</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 674.8027 1027.8712)" class="sym" font-size="55.1181">Np</text>
+	</g></g>
+	
+	
+	<g class="area" id="94"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M755.9,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 823.6213 985.3515)" class="num" font-size="15.748">94</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 773.2285 1027.8712)" class="sym" font-size="55.1181">Pu</text>
+	</g></g>
+	
+	
+	<g class="area" id="95"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M850.4,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 918.1093 985.3515)" class="num" font-size="15.748">95</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 857.4805 1027.8712)" class="sym" font-size="55.1181">Am</text>
+	</g></g>
+	
+	
+	<g class="area" id="96"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M944.9,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1012.5978 985.3515)" class="num" font-size="15.748">96</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 952.7551 1027.8712)" class="sym" font-size="55.1181">Cm</text>
+	</g></g>
+	
+	
+	<g class="area" id="97"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1039.4,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1107.0858 985.3515)" class="num" font-size="15.748">97</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1054.3301 1027.8712)" class="sym" font-size="55.1181">Bk</text>
+	</g></g>
+	
+	
+	<g class="area" id="98"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1133.9,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1201.5742 985.3515)" class="num" font-size="15.748">98</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1154.3301 1027.8712)" class="sym" font-size="55.1181">Cf</text>
+	</g></g>
+	
+	
+	<g class="area" id="99"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1228.3,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1296.0627 985.3515)" class="num" font-size="15.748">99</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1248.0315 1027.8712)" class="sym" font-size="55.1181">Es</text>
+	</g></g>
+	
+	
+	<g class="area" id="100"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1322.8,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1381.1016 985.3515)" class="num" font-size="15.748">100</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1333.8574 1027.8712)" class="sym" font-size="55.1181">Fm</text>
+	</g></g>
+	
+	
+	<g class="area" id="101"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1417.3,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1475.59 985.3515)" class="num" font-size="15.748">101</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1425.9835 1027.8712)" class="sym" font-size="55.1181">Md</text>
+	</g></g>
+	
+	
+	<g class="area" id="102"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1511.8,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1570.0782 985.3515)" class="num" font-size="15.748">102</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1525.9844 1027.8712)" class="sym" font-size="55.1181">No</text>
+	</g></g>
+	
+	
+	<g class="area" id="103"><g transform="matrix(1,0,0,1,0,0)">
+		<path vector-effect="non-scaling-stroke" fill="#ED9BCB" d="M1606.3,961.7h94.5v94.5h-94.5V961.7"/>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1664.5664 985.3515)" class="num" font-size="15.748">103</text>
+	</g><g transform="matrix(1,0,0,1,0,0)">
+		<text transform="matrix(1 0 0 1 1627.5587 1027.8712)" class="sym" font-size="55.1181">Lr</text>
+	</g></g>
+	
+	
+	<g class="area" id="undefined"><g transform="matrix(1,0,0,1,0,0)">
+	</g><g transform="matrix(1,0,0,1,0,0)">
+	</g><g transform="matrix(1,0,0,1,0,0)">
+	</g></g>
+	
+	
+</g>
+</svg>

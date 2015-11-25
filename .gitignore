@@ -1,0 +1,6 @@
+__*
+.idea
+node_modules/
+dump/
+*.ai
+quiz/*/i/

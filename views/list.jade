@@ -1,0 +1,38 @@
+extends base
+
+block append head
+	script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.js')
+
+block content
+	.main-title
+		h1 Сыграйте в квизы
+		.sort сначала:
+			.sort-by.current(data-sort='games') популярные
+				.cursor
+			.sort-by(data-sort='games', data-order='asc') безвестные
+			.sort-by(data-sort='mean', data-order='asc') сложные
+			.sort-by(data-sort='mean') простые
+			.sort-by(data-sort='title', data-order='asc') на букву «а»
+			.sort-by(data-order='rand') какие попало
+	ul.quizzes
+		each quiz in quizzes
+			li(data-name=quiz.name, data-title=quiz.title, data-mean=quiz.stats.mean, data-games=quiz.stats.games, class=quiz.name)
+				img.logo(src='/static/quiz/' + quiz.name + '/' + quiz.logo)
+				.description
+					if quiz.color
+						.quiz-title.colored(style={'background-color': quiz.color, color: quiz.foreColor})
+							=stuff.capitalize(quiz.title)
+							a.stat.my(title='Улучшить') Мой результат #[.value]
+					else
+						.quiz-title=stuff.capitalize(quiz.title)
+					.subtitle=quiz.subtitle
+					.stat Количество прохождений
+						.value=stuff.formatNum(quiz.stats.games)
+					.stat.average.scale Средний результат
+						- var title = 'Медиана: ' + stuff.formatNum(quiz.stats.median) + '\n';
+						- title += 'Мода: ' + (quiz.stats.mode || '—') + '\n';
+						- title += 'Дисперсия: ' + stuff.formatNum(quiz.stats.variance) + '\n';
+						- title += 'Среднеквадратичное отклонение: ' + stuff.formatNum(quiz.stats.stdev);
+						.value(title=title)=stuff.formatNum(quiz.stats.mean) + ' %'
+						.bar(style={ width: quiz.stats.mean + '%' })
+					a.button.open(href='/' + quiz.name) Перейти
