@@ -6,7 +6,7 @@ module.exports = function(req, res, next) {
 	if (req.originalUrl.indexOf('?') !== -1) {
 		queryString = '?' + req.originalUrl.split('?').pop();
 	}
-	if (req.hostname == 'metroquiz.ru') {
+	if (req.hostname == 'metroquiz.ru' || req.hostname == 'www.metroquiz.ru') {
 		if (req.path == '/') {
 			return res.redirect(NEW_URL + '/mskmetro' + queryString);
 		} else if (req.path == '/result-image') {

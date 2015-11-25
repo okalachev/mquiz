@@ -26,6 +26,14 @@ app.use(require('jade-client-middleware')('/static/templates.js', clientTemplate
 app.locals.stuff = stuff;
 app.locals.moment = moment;
 
+// Redirects from www
+app.use(function(req, res, next) {
+	if (req.subdomains[0] == 'www') {
+		res.redirect(301, 'http://mquiz.ru' + req.originalUrl);
+		return;
+	}
+	next();
+});
 
 var quizRoute = ':quiz(' + quizzes.map(function(quiz) {
    return quiz.name;

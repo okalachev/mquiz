@@ -123,11 +123,29 @@ describe('Web server', function() {
 		});
 	});
 
+	describe('Redirect form www.-', function() {
+		it('should work', function() {
+			return request
+				.get('/somepage?param=13')
+				.set('Host', 'www.mquiz.ru')
+				.expect(301)
+				.expect('Location', 'http://mquiz.ru/somepage?param=13')
+		})
+	});
+
 	describe('Redirect from the old site', function() {
 		it('should work at the home page', function() {
 			return request
 				.get('/')
 				.set('Host', 'metroquiz.ru')
+				.expect(302)
+				.expect('Location', 'http://mquiz.ru/mskmetro')
+		});
+
+		it('should work from www.-', function() {
+			return request
+				.get('/')
+				.set('Host', 'www.metroquiz.ru')
 				.expect(302)
 				.expect('Location', 'http://mquiz.ru/mskmetro')
 		});
