@@ -277,14 +277,16 @@ module.exports = {
 		this.quizElem.removeClass('realsize');
 
 		if (this.quizElem.attr('data-show')) {
-			this.show = this.quizElem.attr('data-show');
+			this.show = this.quizElem.attr('data-show'); // disable animations
+			this.foreign = Boolean(this.quizElem.attr('data-foreign'));
+			this.resumed = true;
+			this.session = this.show;
 			$.getJSON('/game', { session: this.show }).done(function(game) {
 				// Fill shown data
 				var attempt = game.attempts.pop();
 				var answers = attempt.answers;
 				self.shownSpent = attempt.spent;
 				for (var id in answers) {
-					console.log(self.entriesById[id].name)
 					var val = answers[id] === true ? self.entriesById[id].name : answers[id];
 					self.mapElem.find('.input[data-id=' + id + ']')
 						.val(val)
@@ -293,6 +295,7 @@ module.exports = {
 				}
 				self.start();
 				self.finish();
+				self.show = false;
 			})
 		}
 	},
@@ -429,7 +432,7 @@ module.exports = {
 		});
 		this.quizElem.find('.input').attr('disabled', true);
 		this.renderResults();
-		if (!this.show) {
+		if (!this.foreign && !this.show) {
 			this.registerAttempt();
 		}
 	},
@@ -512,7 +515,10 @@ module.exports = {
 	renderResults: function() {
 		var results = this.results;
 		results.status = '';
-		results.spent = this.shownSpent || (new Date - this.started);
+		results.spent = new Date - this.started;
+		if (this.shownSpent) {
+			results.spent += this.shownSpent;
+		}
 		results.spentString = stuff.intervalString(this.results.spent);
 		results.quiz = this;
 		results.shareImage = 'http://mquiz.ru/' + this.name + '/shareimage?' + results.correctIds.join('&');
@@ -548,7 +554,8 @@ module.exports = {
 			answers: this.answers,
 			spent: this.results.spent,
 			maxPoints: this.entries.length,
-			session: this.session
+			session: this.session,
+			resumed: this.resumed
 		};
 		$.ajax({
 			url: '/' + this.name + '/register',

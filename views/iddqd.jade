@@ -17,7 +17,7 @@ table
 			td=i+1
 			td=game.quiz
 			td
-				a(href='/' + game.quiz + '/?game=' + game._id, title=game.datetime)=moment(game.datetime).fromNow()
+				a(href='/' + game.quiz + '/?game=' + game._id + '&foreign=1', title=game.datetime)=moment(game.datetime).fromNow()
 			td=game.addr
 			td=game.attempts.length
 			td=stuff.formatNum(game.points)

@@ -25,7 +25,7 @@ block append head
 
 block content
 	- var mixinClass = quiz.mixins.map(function(mixin) { return 'mixin-' + mixin }).join(' ');
-	.quiz.start(data-name=quiz.name, data-show=show, data-title=quiz.title, class=quiz.name + ' ' + mixinClass)
+	.quiz.start(data-name=quiz.name, data-show=show, data-foreign=foreign, data-title=quiz.title, class=quiz.name + ' ' + mixinClass)
 		.map(style={'background-image': quiz.rasterMap ? 'url(/static/quiz/' + quiz.name + '/' + quiz.rasterMap + ')' : 'none'})
 			if quiz.getHtml
 				!=quiz.getHtml()

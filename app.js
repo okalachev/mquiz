@@ -57,6 +57,7 @@ app.get('/' + quizRoute, function(req, res) {
 	res.render('quiz', {
 		quiz: q,
 		show: req.query.game,
+		foreign: req.query.foreign,
 		title: q.title,
 		ogtitle: req.query.title,
 		description: q.description || q.subtitle,
@@ -81,6 +82,9 @@ app.post('/' + quizRoute + '/register', function(req, res) {
 		percent: results.percent,
 		answers: {}
 	};
+	if (req.body.resumed) {
+		attempt.resumed = true;
+	}
 	Object.keys(results.answers).forEach(function(id) {
 		if (results.answers[id] == 'correct') {
 			attempt.answers[id] = true;
