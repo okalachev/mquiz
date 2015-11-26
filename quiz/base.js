@@ -559,7 +559,7 @@ module.exports = {
 			self.session = self.session || session;
 			// Save to local storage
 			if (stuff.localStorage()) {
-				var oldValue = localStorage.getItem('result.' + self.name);
+				var oldValue = localStorage.getItem('result.' + self.name) || -1;
 				if (self.results.percent > oldValue) {
 					// Don't save worse result
 					localStorage.setItem('result.' + self.name, self.results.percent);
