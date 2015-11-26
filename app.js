@@ -118,8 +118,9 @@ app.post('/' + quizRoute + '/register', function(req, res) {
 		}).success(() => res.sendStatus(200));
 	}
 	query.error(function(err) { console.error(err) });
-	// Pre-generate and cache share image to send it rapidly
-	shareimage(req.quiz, results.correctIds);
+	// Pre-generate and cache share images to send them rapidly
+	shareimage(req.quiz, results.correctIds, 'vk');
+	shareimage(req.quiz, results.correctIds, 'fb');
 });
 
 app.get('/game', function(req, res) {
@@ -137,7 +138,9 @@ app.get('/' + quizRoute + '/statistics', function(req, res) {
 
 // Share image
 app.get('/' + quizRoute + '/shareimage', function(req, res) {
-	shareimage(req.quiz, Object.keys(req.query), req.query._fb, res);
+	var type = req.query._type || '';
+	delete req.query._type;
+	shareimage(req.quiz, Object.keys(req.query), type, res);
 });
 
 var secretCodeHash = process.env.SECRET_CODE_HASH;

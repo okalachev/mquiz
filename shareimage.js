@@ -4,17 +4,23 @@ var gm = require('gm').subClass({ imageMagick: true });
 var cheerio = require('cheerio');
 
 var CACHE_SIZE = 20;
+var STROKE_WIDTH = 20;
+var STROKE_LENGTH = 60;
 var IMAGE_WIDTH = 300;
 var FB_IMAGE_WIDTH = 1200;
 var FB_IMAGE_HEIGHT = 630;
-var STROKE_WIDTH = 20;
-var STROKE_LENGTH = 60;
+var VK_IMAGE_WIDTH = 537 * 2;
+var VK_IMAGE_HEIGHT = 240 * 2;
+var FORMARTS = {
+	vk: 'jpeg',
+	fb: 'jpeg'
+};
 
 var cache = [];
 
-module.exports = function(quiz, correct, fb, res) {
-	var format = fb  ? 'jpeg': 'png';
-	var cacheKey = JSON.stringify({name: quiz.name, fb: Boolean(fb), correct: correct});
+module.exports = function(quiz, correct, type, res) {
+	var format = FORMARTS[type] || 'png';
+	var cacheKey = JSON.stringify({ name: quiz.name, type, correct });
 	var cached = cache.find(item => item.key == cacheKey);
 
 	if (cached) {
@@ -68,13 +74,18 @@ module.exports = function(quiz, correct, fb, res) {
 	}
 
 	function done() {
-		if (fb) {
-			// Large image format
+		if (type == 'fb') {
 			img
 				.resize(FB_IMAGE_WIDTH, FB_IMAGE_HEIGHT, '>')
 				.gravity('Center')
 				.background('#f5f5f5')
 				.extent(FB_IMAGE_WIDTH, FB_IMAGE_HEIGHT);
+		} else if (type == 'vk') {
+			img
+				.resize(VK_IMAGE_WIDTH, VK_IMAGE_HEIGHT, '>')
+				.gravity('Center')
+				.background('#f5f5f5')
+				.extent(VK_IMAGE_WIDTH, VK_IMAGE_HEIGHT);
 		} else {
 			img.resize(IMAGE_WIDTH);
 		}
