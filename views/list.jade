@@ -19,12 +19,9 @@ block content
 			li(data-name=quiz.name, data-title=quiz.title, data-mean=quiz.stats.mean, data-games=quiz.stats.games, class=quiz.name)
 				img.logo(src='/static/quiz/' + quiz.name + '/' + quiz.logo)
 				.description
-					if quiz.color
-						.quiz-title.colored(style={'background-color': quiz.color, color: quiz.foreColor})
-							=stuff.capitalize(quiz.title)
-							a.stat.my(title='Улучшить') Мой результат #[.value]
-					else
-						.quiz-title=stuff.capitalize(quiz.title)
+					.quiz-title(class=quiz.color ? 'colored' : '', style={'background-color': quiz.color || '', color: quiz.foreColor || '' })
+						=stuff.capitalize(quiz.title)
+						a.stat.my(title='Улучшить') Мой результат #[.value]
 					.subtitle=quiz.subtitle
 					.stat Количество прохождений
 						.value=stuff.formatNum(quiz.stats.games)

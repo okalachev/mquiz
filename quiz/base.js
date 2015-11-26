@@ -10,6 +10,8 @@ module.exports = {
 	titleAcc: undefined,
 	titleGen: undefined,
 	logo: '../default-logo.svg',
+	color: undefined,
+	foreColor: undefined,
 	rasterMap: undefined,
 	vectorMap: undefined,
 	added: new Date(0),

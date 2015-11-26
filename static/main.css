@@ -284,7 +284,6 @@ h1 {
 .stat.my {
 	display: none;
 	float: right;
-	background: #F5F5F5;
 	padding: 20px;
 	margin: -20px 0;
 	border-radius: 0 0 10px 10px;
@@ -293,6 +292,9 @@ h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 15px;
 	text-align: center;
+}
+.quiz-title.colored .stat.my {
+	background: #F5F5F5;
 }
 .quizzes li:hover .map {
 	opacity: 1;
