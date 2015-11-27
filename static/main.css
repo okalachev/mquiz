@@ -346,6 +346,7 @@ h1 {
 .quiz.start .map {
 	pointer-events: none;
 }
+.quiz.start .another-quizzes { display: inline; }
 .quiz .map object, .quiz .map svg { display: block; }
 .quiz.heatmap .map, .quiz.heatmap .map object { cursor: pointer; } /* TODO: doesn't work */
 .quiz .side {
@@ -574,6 +575,10 @@ h1 {
 .quiz .results { display: none; }
 .quiz.results .description { display: none; }
 .quiz .description .rules { margin-bottom: 20px; }
+.quiz .another-quizzes {
+	margin-left: 50px;
+	display: none;
+}
 .quiz.results .results { display: block; }
 .quiz.results .map {
 	cursor: pointer;
