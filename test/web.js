@@ -1,9 +1,12 @@
-process.env.MONGO_URI = 'localhost/metroquiz_test';
+process.env.MONGO_URI = 'localhost/mquiz_test';
 process.env.SECRET_CODE_HASH = '$2a$08$QdE4mBS0oRrlPKPepxCOqOOJeKEq/XKYYIOBuFzdaHeRWvEzSj6D6'; // password123
 
+var EventEmitter = require('events');
 delete require.cache[require.resolve('../app')]; // to ensure that the test db is used
 var app = require('../app');
 var request = require('supertest-as-promised')(app);
+
+EventEmitter.defaultMaxListeners = 0;
 
 describe('Web server', function() {
 	it('should return the home page', () => request.get('/').expect(200));
@@ -51,6 +54,7 @@ describe('Web server', function() {
 		before('Clear games collection', () => mongo.get('games').remove());
 
 		it('should be calculated correctly', function() {
+			this.timeout(0);
 			var session;
 			return request
 				.post('/europe/register')

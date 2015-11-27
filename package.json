@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"express-debug": "^1.1.1",
-		"mocha": "^2.3.4*",
+		"mocha": "^2.3.4",
 		"should": "^7.1.1",
 		"supertest": "^1.1.0",
 		"supertest-as-promised":"^2.0.2"
@@ -31,6 +31,7 @@
 		"node": "4.2.x"
 	},
 	"scripts": {
-		"start": "node app"
+		"start": "node app",
+		"test": "mocha"
 	}
 }
