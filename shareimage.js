@@ -24,7 +24,7 @@ module.exports = function(quiz, correct, type, res) {
 	var cached = cache.find(item => item.key == cacheKey);
 
 	if (cached) {
-		res && res.header('Content-Type', 'image/' + format).send(cached.buffer);
+		res && res.type(format).send(cached.buffer);
 	} else if (quiz.vectorMap) {
 		var svgDoc = cheerio.load(quiz.svgContent);
 		var root = svgDoc.root();
@@ -93,7 +93,7 @@ module.exports = function(quiz, correct, type, res) {
 			var chunks = [];
 			assert.equal(err, null);
 			stderr.pipe(process.stderr);
-			res && stdout.pipe(res);
+			res && stdout.pipe(res.type(format));
 			stdout.on('data', chunk => chunks.push(chunk));
 			stdout.on('end', function() {
 				var buffer = Buffer.concat(chunks);
