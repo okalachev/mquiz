@@ -50,12 +50,20 @@ function common(q) {
 			}
 			distribution[Math.floor((percent - 1) / 10)]++;
 		});
+		var mode = stats.mode(percentsRounded);
+		if (mode instanceof Set || mode instanceof Array) {
+			mode = Array.from(mode);
+		} else if (isNaN(mode)) {
+			mode = [];
+		} else {
+			mode = [mode];
+		}
 		return {
 			quiz: q,
 			games: games.length,
 			mean: stats.mean(percents),
 			median: stats.median(percents),
-			mode: stats.mode(percentsRounded),
+			mode: mode,
 			variance: stats.variance(percents),
 			stdev: stats.stdev(percents),
 			spentTotal: stats.sum(games.map(game => game.spent)), // TODO: fix it - add spent to game object
