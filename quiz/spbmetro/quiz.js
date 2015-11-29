@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	lineColors: {
-		1: '#d609m3b',
+		1: '#d6093b',
 		2: '#0078ca',
 		3: '#009a4a',
 		4: '#eb7225',
