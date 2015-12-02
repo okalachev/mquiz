@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'штаты США',
 	titleGen: 'штатов США',
-	entryName: { 1: 'штат', 2: 'штата', 5: 'штатов', plural: 'Штаты' },
+	entryName: { 1: 'штат', 2: 'штата', 5: 'штатов', plural: 'штаты' },
 	mixins: ['map'],
 	width: 800,
 	height: 506,
