@@ -51,7 +51,10 @@ describe('Web server', function() {
 	describe('Statistics', function() {
 		var mongo = require('../mongo');
 
-		before('Clear games collection', () => mongo.get('games').remove());
+		before('Clear DB', function() {
+			return mongo.get('games').remove()
+				.then(() => mongo.get('stats').remove());
+		});
 
 		it('should be calculated correctly', function() {
 			this.timeout(0);
@@ -95,8 +98,14 @@ describe('Web server', function() {
 				.expect(200)
 				.expect(/^.{24}$/)
 			)
+			.then(() => require('../statistics'))
 			.then(function() {
-				require('../statistics');
+				return request
+					.get('/fetch')
+					.set('Cookie', ['secret_code=password123'])
+					.expect(200);
+			})
+			.then(function() {
 				return request
 					.get('/europe/statistics')
 					.expect(200)

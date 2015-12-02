@@ -27,7 +27,7 @@ block content
 						.value=stuff.formatNum(quiz.stats.games)
 					.stat.average.scale Средний результат
 						- var title = 'Медиана: ' + stuff.formatNum(quiz.stats.median) + '\n';
-						- title += 'Мода: ' + (quiz.stats.mode.join(', ') || '–') + '\n';
+						- title += 'Мода: ' + ((quiz.stats.mode || []).join(', ') || '–') + '\n';
 						- title += 'Дисперсия: ' + stuff.formatNum(quiz.stats.variance) + '\n';
 						- title += 'Среднеквадратичное отклонение: ' + stuff.formatNum(quiz.stats.stdev);
 						.value(title=title)=stuff.formatNum(quiz.stats.mean) + ' %'

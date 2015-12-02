@@ -111,7 +111,7 @@ function mistakes(quiz) {
 	});
 }
 
-Q.all(quiz.quizzes.map(function(quiz) {
+module.exports = Q.all(quiz.quizzes.map(function(quiz) {
 	// Iterate over all quizzes, calculate their statistics and write to mongodb
 	var q = quiz.name;
 	return Q.all([
@@ -125,8 +125,8 @@ Q.all(quiz.quizzes.map(function(quiz) {
 		return mongo.get('stats').update({ quiz: stats.quiz }, stats, { upsert: true });
 	});
 })).then(function() {
-	mongo.close();
+	module.parent || mongo.close();
 }, function(err) {
-	mongo.close();
+	module.parent || mongo.close();
 	console.error(err);
 });
