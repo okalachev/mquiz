@@ -17,6 +17,7 @@ app.use('/static', express.static('static'));
 app.use('/static/quiz/', express.static('quiz'));
 app.use('/static/lib', require('browserify-middleware')('./lib', { ignore: './mongo.js' }));
 app.use(require('body-parser').json());
+app.use(require('compression')());
 app.use(require('./metroquiz-redirect'));
 var clientTemplates = ['results.jade', 'statistics.jade', 'disqus.jade'];
 app.use(require('jade-client-middleware')('/static/templates.js', clientTemplates, {

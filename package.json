@@ -18,7 +18,8 @@
 		"stats-lite": "^2.0.0",
 		"moment": "^2.10.6",
 		"jade-client-middleware": "^1.0.0",
-		"bcrypt": "~0.8.5"
+		"bcrypt": "~0.8.5",
+		"compression": "^1.6.1"
 	},
 	"devDependencies": {
 		"express-debug": "^1.1.1",
