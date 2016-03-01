@@ -33,6 +33,6 @@
 	"scripts": {
 		"start": "node app",
 		"test": "mocha",
-		"postinstall": "mkdir ./static/lib && ./node_modules/browserify-middleware/node_modules/.bin/browserify lib/main.js -i ./mongo.js | ./node_modules/browserify-middleware/node_modules/.bin/uglifyjs > ./static/lib/main.js"
+		"postinstall": "mkdir -p ./static/lib && ./node_modules/browserify-middleware/node_modules/.bin/browserify lib/main.js -i ./mongo.js | ./node_modules/browserify-middleware/node_modules/.bin/uglifyjs > ./static/lib/main.js"
 	}
 }
