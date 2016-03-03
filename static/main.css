@@ -4,6 +4,16 @@
 	font-family: 'MyRiad';
 	src: url('/static/MyriadPro-Regular.otf');
 }
+@font-face {
+	font-family: 'mquiz';
+	src: url('/static/font/mquiz.eot?88841726');
+	src: url('/static/font/mquiz.eot?88841726#iefix') format('embedded-opentype'),
+	url('/static/font/mquiz.woff?88841726') format('woff'),
+	url('/static/font/mquiz.ttf?88841726') format('truetype'),
+	url('/static/font/mquiz.svg?88841726#mquiz') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
@@ -100,7 +110,7 @@ button.light {
 
 /* Header and footer */
 .head {
-	height: 70px;
+	height: 64px;
 	background-size: 112%;
 	background-position: -10px -20px;
 	background-color: rgba(0, 0, 0, 0.73);
@@ -111,9 +121,13 @@ button.light {
 	font-weight: 100;
 	font-size: 50px;
 	display: flex;
-	align-items: center;
+	align-items: baseline;
 	justify-content: space-around;
 	text-transform: uppercase;
+	padding-top: 6px;
+}
+.head .logo {
+	font-family: mquiz, Roboto;
 }
 footer {
 	font-family: Helvetica, sans-serif;
