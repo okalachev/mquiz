@@ -178,7 +178,7 @@ function reloadStats() {
 setInterval(reloadStats, process.env.STATS_RELOAD_PERIOD || 3 * 60 * 60 * 1000);
 
 // Load all the stats before start
-reloadStats().all(function() {
+reloadStats().then(function() {
 	if (module.parent) return;
 	var server = app.listen(process.env.PORT || 3000, function () {
 		console.log('Listening at host %s at port %s', server.address().address, server.address().port);
