@@ -104,21 +104,21 @@ app.post('/' + quizRoute + '/register', function(req, res) {
 			percent: attempt.percent,
 			spent: attempt.spent,
 			attempts: [attempt]
-		}).success(function(doc) {
+		}).then(function(doc) {
 			res.send(String(doc._id));
 		});
 	} else {
 		// Non-first attempt
-		query = mongo.get('games').updateById(req.body.session, {
+		query = mongo.get('games').findOneAndUpdate({ _id: req.body.session }, {
 			$set: {
 				points: attempt.points,
 				percent: attempt.percent,
 				spent: attempt.spent
 			},
 			$push: { attempts: attempt }
-		}).success(() => res.sendStatus(200));
+		}).then(() => res.sendStatus(200));
 	}
-	query.error(function(err) { console.error(err) });
+	query.catch(function(err) { console.error(err) });
 	// Pre-generate and cache share images to send them rapidly
 	shareimage(req.quiz, results.correctIds, 'vk');
 	shareimage(req.quiz, results.correctIds, 'fb');
