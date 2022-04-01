@@ -22,7 +22,7 @@
 	span.show-heatmap(data-label='Показать тепловую карту', data-alter='Скрыть тепловую карту') Показать тепловую карту
 ol.entries
 	each entry in stats.famous
-		- var id = entry._id
+		- var id = entry.id
 		li(class=quiz.results && quiz.results.answers[id])
 			!=quiz.getEntryIcon(id)
 			span.name=quiz.entriesById[id].name

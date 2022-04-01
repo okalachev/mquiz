@@ -166,7 +166,7 @@ app.get('/iddqd', cookieParser, admin, function(req, res, next) {
 });
 
 function reloadStats() {
-	return mongo.get('stats').find().then(function(allStats) {
+	return mongo.get('stats2').find().then(function(allStats) {
 		allStats.forEach(stats => quiz.getByName(stats.quiz).stats = stats);
 		// Re-sort quizzess
 		quizzes.sort((a, b) => (b.stats.games || -1) - (a.stats.games || -1)); // by popularity

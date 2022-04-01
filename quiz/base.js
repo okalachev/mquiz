@@ -461,11 +461,11 @@ module.exports = {
 									stuff.hexToRgb('#3EC259')
 								]
 						);
-				this.quizElem.find('.input[data-id=' + entry._id + ']')
+				this.quizElem.find('.input[data-id=' + entry.id + ']')
 					.css('background-color', 'rgba(' + color.join(',') + ',.7)')
 					.attr('title', entry.value + ' % угадавших');
 				if (this.hiddenInputs) {
-					this.paintArea(this.entriesById[entry._id].area, 'rgb(' + color.join(',') + ')');
+					this.paintArea(this.entriesById[entry.id].area, 'rgb(' + color.join(',') + ')');
 				}
 			}, this);
 			$.scrollTo(this.mapElem);

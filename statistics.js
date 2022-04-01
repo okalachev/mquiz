@@ -6,7 +6,11 @@ var stats = require('stats-lite');
 var mongo = require('./mongo');
 var quiz = require('./quiz/quiz');
 
-var sumReduce = function (key, values) { return Array.sum(values) };
+function arraySum(arr) {
+	return arr.reduce(function(a, b) { return a + b; }, 0);
+}
+
+var sumReduce = function (key, values) { return arraySum(values) };
 var sortByValue = function(items) {
 	return items.sort(function(a, b) {
 		return b.value - a.value;
@@ -14,18 +18,48 @@ var sortByValue = function(items) {
 };
 var games = mongo.get('games');
 
-function mapReduce(map, reduce, out, scope, finalize) {
+function _mapReduce(map, reduce, out, scope, finalize) { // MongoDB mapReduce is deprecated
 	var d = Q.defer();
-	games.col.mapReduce(map, reduce, { scope: scope, out: out || { inline: 1 }, finalize: finalize }, function(err, res) {
+	games.mapReduce(map, reduce, { scope: scope, out: out || { inline: 1 }, finalize: finalize }, function(err, res) {
 		assert.equal(err, null);
 		d.resolve(res);
 	});
 	return d.promise;
 }
 
+var gamesData;
+var gamesPromise = games.find().then(function(date) {
+	gamesData = date;
+});
+
+// implement deprecated mapReduce
+function mapReduce(map, reduce, out, scope, finalize) {
+	var d = Q.defer();
+	var values = {};
+	function emit(key, value) {
+		key = JSON.stringify(key);
+		if (!values[key]) values[key] = [];
+		values[key].push(value);
+	}
+	gamesPromise.then(function() {
+		for (var game of gamesData) {
+			if (!scope.quiz || game.quiz != scope.quiz) continue; // FIXME: hack to simplify code
+			map.call(game, emit);
+		}
+		var result = {};
+		for (var key in values) {
+			if (values[key].length > 1) {
+				result[key] = reduce(JSON.parse(key), values[key]);
+			}
+		}
+		d.resolve(Object.keys(result).map(function(key) { return { _id: JSON.parse(key), value: result[key] }}));
+	});
+	return d.promise;
+}
+
 function aggregate(pipeline, out) {
 	var d = Q.defer();
-	games.col.aggregate([pipeline, { $out: out }], function(err) {
+	games.aggregate([pipeline, { $out: out }], function(err) {
 		assert.equal(err, null);
 		d.resolve();
 	});
@@ -74,7 +108,7 @@ function common(q) {
 }
 
 function famous(quiz) {
-	return mapReduce(function() {
+	return mapReduce(function(emit) {
 		if (this.quiz != quiz) return;
 		var answers = this.attempts.pop().answers;
 		for(var id in answers) {
@@ -83,12 +117,12 @@ function famous(quiz) {
 	}, sumReduce, undefined, { quiz: quiz }).then(function(items) {
 		return items.sort(function(a, b) {
 			return b.value - a.value;
-		});
+		}).map(function(item) { item.id = item._id; delete item._id; return item; });
 	});
 }
 
 function mistakes(quiz) {
-	return mapReduce(function() {
+	return mapReduce(function(emit) {
 		if (this.quiz != quiz) return;
 		var emitted = {};
 		this.attempts.forEach(function(attempt) {
@@ -122,7 +156,7 @@ module.exports = Q.all(quiz.quizzes.map(function(quiz) {
 		var stats = data[0];
 		stats.famous = data[1];
 		stats.mistakes = data[2];
-		return mongo.get('stats').update({ quiz: stats.quiz }, stats, { upsert: true });
+		return mongo.get('stats2').update({ quiz: stats.quiz }, stats, { upsert: true, replaceOne: true });
 	});
 })).then(function() {
 	module.parent || mongo.close();
