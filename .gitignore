@@ -4,3 +4,4 @@ node_modules/
 dump/
 *.ai
 quiz/*/i/
+.env
