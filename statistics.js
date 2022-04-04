@@ -44,12 +44,14 @@ function mapReduce(map, reduce, out, scope, finalize) {
 	gamesPromise.then(function() {
 		for (var game of gamesData) {
 			if (!scope.quiz || game.quiz != scope.quiz) continue; // FIXME: hack to simplify code
-			map.call(game, emit);
+			map.call(JSON.parse(JSON.stringify(game)), emit); // parse-stringify to make a copy
 		}
 		var result = {};
 		for (var key in values) {
 			if (values[key].length > 1) {
 				result[key] = reduce(JSON.parse(key), values[key]);
+			} else {
+				result[key] = values[key][0];
 			}
 		}
 		d.resolve(Object.keys(result).map(function(key) { return { _id: JSON.parse(key), value: result[key] }}));
