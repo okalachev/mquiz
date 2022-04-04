@@ -139,7 +139,7 @@ module.exports = {
 		return s.trim().toLowerCase().replace(/ё/g,'е');
 	},
 
-	/** Itarate over the entries and return the first returned (truthy) value */
+	/** Iterate over the entries and return the first returned (truthy) value */
 	iterate: function(fn) {
 		var res;
 		this.entries.some(function(entry) {
@@ -362,7 +362,7 @@ module.exports = {
 		});
 	},
 
-	/* Applies grow effect to the qiuz preview */
+	/* Applies grow effect to the quiz preview */
 	grow: function(grow, callback) {
 		var self = this;
 		var DURATION = 200;

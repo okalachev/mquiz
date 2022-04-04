@@ -11,7 +11,7 @@ var FB_IMAGE_WIDTH = 1200;
 var FB_IMAGE_HEIGHT = 630;
 var VK_IMAGE_WIDTH = 537 * 2;
 var VK_IMAGE_HEIGHT = 240 * 2;
-var FORMARTS = {
+var FORMATS = {
 	vk: 'jpeg',
 	fb: 'jpeg'
 };
@@ -19,7 +19,7 @@ var FORMARTS = {
 var cache = [];
 
 module.exports = function(quiz, correct, type, res) {
-	var format = FORMARTS[type] || 'png';
+	var format = FORMATS[type] || 'png';
 	var cacheKey = JSON.stringify({ name: quiz.name, type, correct });
 	var cached = cache.find(item => item.key == cacheKey);
 

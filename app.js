@@ -64,7 +64,7 @@ app.get('/' + quizRoute, function(req, res) {
 		description: q.description || q.subtitle,
 		keywords: q.keywords,
 		image: req.query.image || 'http://mquiz.ru/static/quiz/' + q.name + '/' + q.logo,
-		tryalso: stuff.shuffle(quizzes.filter(e => e != q)).slice(0, 3) // 3 random quizzess except the current
+		tryalso: stuff.shuffle(quizzes.filter(e => e != q)).slice(0, 3) // 3 random quizzes except the current
 	});
 });
 
@@ -168,7 +168,7 @@ app.get('/iddqd', cookieParser, admin, function(req, res, next) {
 function reloadStats() {
 	return mongo.get('stats2').find().then(function(allStats) {
 		allStats.forEach(stats => quiz.getByName(stats.quiz).stats = stats);
-		// Re-sort quizzess
+		// Re-sort quizzes
 		quizzes.sort((a, b) => (b.stats.games || -1) - (a.stats.games || -1)); // by popularity
 	}, function(err) {
 		console.error("Couldn't fetch stats from Mongo.", err);

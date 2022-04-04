@@ -2,7 +2,7 @@ var should = require('should');
 var quiz = require('../quiz/quiz');
 
 describe('Quiz library', function() {
-	it('should have quizzess list', function() {
+	it('should have quizzes list', function() {
 		quiz.quizzes.should.be.an.Array();
 	});
 
