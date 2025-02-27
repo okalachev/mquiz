@@ -14,7 +14,7 @@
 		"browserify-middleware": "^7.0.0",
 		"cheerio": "^0.22.0",
 		"validate.js": "~0.9.0",
-		"gm": "^1.23.1",
+		"gm": "^1.25.1",
 		"stats-lite": "^2.0.0",
 		"moment": "^2.10.6",
 		"jade-client-middleware": "^1.0.0",
